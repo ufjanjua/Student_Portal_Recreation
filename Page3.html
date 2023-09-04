@@ -1,0 +1,139 @@
+<html>
+	<head>
+	<!-- Title -->
+	<title>Final HTML, CSS, & JavaScript - Page 3</title>
+
+	<!-- External Stylesheet and Fonts -->
+	<link rel = "stylesheet" href = "ThirdPageCSS/styles.css"/>
+	<link rel = "stylesheet" href = "ThirdPageCSS/fonts.css"/>
+	</head>
+	<body>
+		<div id = "NavBar">
+			<a href="Page2.html"><img src = "img/compactlogo.png" alt = "UniLogo" id = logo></a>
+			<img src = "img/border3.png" alt = "border3" id = border3>
+			<span id = "CourseName">CS_300_2_202320 Client Side Web Dev't</span>
+			<button type="button" class = "navbtn" onclick = "ClassesDropdown()"><img src = "img/grid.png" alt = "NavGrid" id = grid></button>
+			<img src = "img/border1.png" alt = "border1" id = border1>
+			<button type="button" class = "navbtn" onclick = "MessagesDropdown()"><img src= "img/mail.png" alt = "mail" id = mail></button>
+			<button type="button" class = "navbtn" onclick = "DiscussionsDropdown()"><img src= "img/discussion.png" alt = "discussion" id = discussion></button>
+			<button type="button" class = "navbtn" onclick = "NotificationsDropdown()"><img src= "img/notifications.png" alt = "notifications" id = notification></button>
+			<img src = "img/border2.png" alt = "border2" id = border2>
+			<div id = "user">
+				<button type="button" class = "navbtn" onclick = "UserDropdown()"><img src= "img/profilepicture.png" alt = "profilepicture" id = pfp>
+				<span id = "name">Umar Janjua</span></button>
+			</div>
+			<button type="button" class = "navbtn" onclick = "SettingsDropdown()"><img src= "img/settings.png" alt = "setting" id = settings></button>
+		</div>
+		<div id = "SecondNavBar">
+			<span id = "CHome">Course Home</span>
+			<span id = "Content">Content</span>
+			<span id = discc>Discussions</span>
+			<span id = Assignments>Assignments</span>
+			<span id = Quizzes>Quizzes</span>
+			<span id = CListEmail>Classlist & Email</span>
+			<span id = Grades>Grades</span>
+			<span id = Groups>Groups</span>
+			<span id = Attendance>Attendance</span>
+			<span id = Zoom>Zoom</span>
+			<span id = Assignments>Assignments</span>
+		</div>
+		<div id = CourseTitle>
+			<h2>CS_300_2_202320 Client Side Web Dev't</h2>
+		</div>
+		<div id = CourseAnnouncements>
+			<button type="button" class = "navbtn" onclick = "HiddenAnnouncements()"><span id = announcements>Course Announcements \/</span></button>
+			<span id = Week10>Week 10 (Week of March 27)</span>
+			<span id = PostDate>Posted Mar 27, 2023 7:00 AM</span>
+			<span id = annpt1>Week 10 Material:</span>
+			<div id = Details>
+				<p>1. Assignment -> Attendance -> Week10</p>
+				<p id = indent>○ Submit this assignment before Friday evening to receive credit for attendance</p>
+				<p>2. Content -> Responsive HTML & CSS</p>
+				<p id = indent>○ Starter Files and Final Files</p>
+				<p id = indent>○ List of @media Queries</p>
+				<p>3. Content -> Lectures</p>
+				<p id = indent>○ Lecture 10 - Responsive CSS</p>
+				<p>4. Homework</p>
+				<p id = indent>○ ResponsiveDesign_Homepage</p>
+				<p id = indent>○ PDF with details</p>
+				<p>5. Final Project </p>
+				<p id = indent>○ Picking the site is due this Friday (October 29). Please see Content -> Final Project for details</p>
+			</div>
+		</div>
+		<div id = CourseUpdates>
+			<button type="button" class = "navbtn" onclick = "HideUpdates()"><span id = UpdateTxt>Course Updates \/</span></button>
+			<p id = indent2>There are no current updates for CS_300_2_202320 Client Side Web Dev't</p>
+		</div>
+		<div id = HiddenUpdates class = noshow>
+			<button type="button" class = "navbtn" onclick = "HideUpdates()"><span id = UpdateTxt>Course Updates ></span></button>
+		</div>
+		<div id = UserLinks>
+			<button type="button" class = "navbtn" onclick = "HideLinks()"><span id = ULinks>User Links \/</span></button>
+			<div id = LinksContent>
+				<ul class = "no-bullets">
+					<li>CS_300_2_202320 Client Side Web Dev't Links</li>
+					<li>Common Tags and Elements</li>
+					<ul id = list1 class = "no-bullets">
+						<li id = blue1>Common HTML Tags</li>
+						<li id = blue1>Common HTML Form Tags</li>
+						<li id = blue1>Common CSS Properties</li>
+						<li id = blue1>Common JavaScript Events, Effects, etc.</li>
+						<li id = blue1>Common jQuery Events, Effects, etc.</li>
+					</ul>
+					<li>Tutorials</li>
+					<ul id = list2 class = "no-bullets">
+						<li id = blue2>W3 Schools</li>
+						<li id = blue2>Codecademy</li>
+					</ul>
+					</ul>
+				</ul>
+			</div>
+		</div>
+		<div id = HiddenUserLinks class = noshow>
+			<button type="button" class = "navbtn" onclick = "HideLinks()"><span id = ULinks>User Links ></span></button>
+		</div>		
+		<div id = classes class = noshow>
+			<a href = "Page3.html"><p id = client>CS_300_2_202320 Client Side Web Dev't - CS_300_2_202320</p></a>
+		</div>
+		<div id = messages class = noshow>
+			<div id = msgtype>
+				<span id = pg>Pager</span><span id = em>Email</span>
+			</div>
+			<div id = nomsgs>
+				No items found.
+			</div>
+		</div>
+		<div id = discussionsdropdown class = noshow>
+			<div id = discussionscontent>
+				<p id = nocontent>No items found.</p>
+			</div>
+		</div>
+		<div id = notificationsdropdown class = noshow>
+			<div id = notificationscontent>
+				<p id = nocontent>No items found.</p>
+			</div>
+		</div>
+		<div id = userdropdown class = noshow>
+			<div id = firstthree>
+				<p id = usercontent1>Profile</p>
+				<p id = usercontent1>Notifications</p>
+				<p id = usercontent>Account Settings</p>
+			</div>
+			<p id = usercontent>Progress</p>
+			<p id = usercontent>English (United States)</p>
+			<p id = usercontent2><a href="index.html">Log Out</a></p>
+		</div>
+		<div id = settingsdropdown class = noshow>
+			<h3 id = settingscontent1>Organizataion Related</h3>
+			<span id = settingscontent2>Media Library</span>
+		</div>
+		<div id = HideAnnouncements class = noshow>
+			<button type="button" class = "navbtn" onclick = "HiddenAnnouncements()"><span id = announcements>Course Announcements ></span></button>
+		</div>
+		<script src = "ThirdPageJS/scripts.js"></script>
+		<footer>
+  			<p>Author: Umar Janjua<br>
+  			<a href="mailto:ufjanjua@neiu.edu">ufjanjua@neiu.edu</a></p>
+		</footer>
+	</body>
+</html>

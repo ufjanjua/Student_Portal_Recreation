@@ -1,0 +1,79 @@
+html, body
+{
+	margin: 0;
+	.padding: 0;
+}
+#NavBar
+{
+	height: 100px;
+	width: 1536px;
+	positon: absolute;
+	border-top: 5px solid darkblue;
+	border-bottom: 2px solid lightgrey;
+}
+#LoginText
+{
+	position: relative;
+	left: 125px;
+}
+#bluetxt
+{
+	color: #006fbf;
+}
+#bluetxt:hover
+{
+	text-decoration: underline;
+}
+#LoginField
+{
+	width: 300px;
+	border: 2px solid lightgrey;
+	position: absolute;
+	left: 125px;
+	border-radius: 5px;
+}
+#username
+{
+	height: 40px;
+	width: 250px;
+	border-radius: 5px;
+}
+#password
+{
+	height: 40px;
+	width: 250px;
+	border-radius: 5px;
+}
+#FieldTitle
+{
+	left: 25px;
+}
+#LoginImage
+{
+	position: absolute;
+	left: 475px;
+	border: 2px solid lightgrey;
+	border-radius: 5px;
+	width: 305px;
+	height: 250px;
+}
+#img
+{
+	position: absolute;
+	left: 10px;
+	bottom: 25px;
+}
+#NextPage
+{
+	background-color: #006fbf;
+	height: 50px;
+	width: 125px;
+	border-radius: 5px;
+	border-width: 0px;
+}
+footer
+{
+	position: absolute;
+	top: 750px;
+	left: 125px;
+}

@@ -1,0 +1,138 @@
+<html>
+	<head>
+	<!-- Title -->
+	<title>Final HTML, CSS, & JavaScript - Page 2</title>
+
+	<!-- External Stylesheet and Fonts -->
+	<link rel = "stylesheet" href = "SecondPageCSS/styles.css"/>
+	<link rel = "stylesheet" href = "SecondPageCSS/fonts.css"/>
+	</head>
+	<body>
+		<div id = "NavBar">
+			<img src = "img/logo.jpg" alt = "UniLogo" id = logo>
+			<button type="button" class = "navbtn" onclick = "ClassesDropdown()"><img src = "img/grid.png" alt = "NavGrid" id = grid></button>
+			<img src = "img/border1.png" alt = "border1" id = border1>
+			<button type="button" class = "navbtn" onclick = "MessagesDropdown()"><img src= "img/mail.png" alt = "mail" id = mail></button>
+			<button type="button" class = "navbtn" onclick = "DiscussionsDropdown()"><img src= "img/discussion.png" alt = "discussion" id = discussion></button>
+			<button type="button" class = "navbtn" onclick = "NotificationsDropdown()"><img src= "img/notifications.png" alt = "notifications" id = notification></button>
+			<img src = "img/border2.png" alt = "border2" id = border2>
+			<div id = "user">
+				<button type="button" class = "navbtn" onclick = "UserDropdown()"><img src= "img/profilepicture.png" alt = "profilepicture" id = pfp>
+				<span id = "name">Umar Janjua</span></button>
+			</div>
+			<button type="button" class = "navbtn" onclick = "SettingsDropdown()"><img src= "img/settings.png" alt = "setting" id = settings></button>
+		</div>
+		<div id = "SecondNavBar">
+			<span id = "lib">NEIU Libraries</span>
+			<button onclick = "ResourceDropdown()" class = "rsrbutton"><span id = "resource" class = "resourcedropdown-btn">Student Resources \/</span></button>
+			<span id = "guide">D2L Guides for Faculty</span>
+			<span id = "tutorial">D2L Tutorials for Students</span>
+			<span id = "support">24/7 D2L Support</span>
+		</div>
+		<div id = "announcements">
+			<button type="button" class = "navbtn" onclick = "HideAnnouncements()"><span id = "announce">NEIU Announcements \/</span></button>
+			<div id = "none"><span id = "ZeroAnnouncements">There are no announcements to display.</span></div>
+		</div>
+		<div id = "clist" class = "courses" class = show>
+			<button type="button" class = "navbtn" onclick = "HideCourses()"><span id = "AllCourses">My NEIU Courses \/</span></button>
+			<div id = "Semesters">
+				<span id = Spring2023>Spring 2023</span>
+			</div>
+			<div id = "CS300" class = show>
+				<img src= "img/cs300.png" alt = "course1" id = "CoursePic">
+				<a href = "Page3.html">
+					<span id = "CourseName">CS_300_2_202320 Client Side Web Dev't</span>
+				</a>
+				<span id = "CourseDetails">CS_300_2_202320 • Spring 2023</span>
+				<p id = "EndDate">Ends May 27, 2023 at 12:00 AM</p>
+			</div>
+		</div>
+		<div id = "D2LSupport">
+			<img src= "img/help.png" alt = "helpimg" id = "HelpImg">
+			<span id = "FindHelp">Find help now</span>
+			<button type="button" class = "navbtn" onclick = "HideSupport()"><span id = supp><span id = supp> 24/7 D2L Support \/</span></span>
+			<p id = "questions">Questions about D2L?</p>
+		</div>
+		<div id = "calendar">
+		<button type="button" class = navbtn onclick = "HideCalendar()"><span id = "dates">Calendar ></span></button>
+		</div>
+		<div id = classes class = noshow>
+			<a href = "Page3.html"><p id = client>CS_300_2_202320 Client Side Web Dev't - CS_300_2_202320</p></a>
+		</div>
+		<div id = messages class = noshow>
+			<div id = msgtype>
+				<span id = pg>Pager</span><span id = em>Email</span>
+			</div>
+			<div id = nomsgs>
+				No items found.
+			</div>
+		</div>
+		<div id = discussionsdropdown class = noshow>
+			<div id = discussionscontent>
+				<p id = nocontent>No items found.</p>
+			</div>
+		</div>
+		<div id = notificationsdropdown class = noshow>
+			<div id = notificationscontent>
+				<p id = nocontent>No items found.</p>
+			</div>
+		</div>
+		<div id = userdropdown class = noshow>
+			<div id = firstthree>
+				<p id = usercontent1>Profile</p>
+				<p id = usercontent1>Notifications</p>
+				<p id = usercontent>Account Settings</p>
+			</div>
+			<p id = usercontent>Progress</p>
+			<p id = usercontent>English (United States)</p>
+			<p id = usercontent2><a href="index.html">Log Out</a></p>
+		</div>
+		<div id = settingsdropdown class = noshow>
+			<h3 id = settingscontent1>Organizataion Related</h3>
+			<span id = settingscontent2>Media Library</span>
+		</div>
+		<div id = HideAnnouncements class = noshow>
+			<button type="button" class = "navbtn" onclick = "HideAnnouncements()"><span id = "announce">NEIU Announcements ></span></button>
+		</div>
+		<div id = HideCourses class = noshow>
+			<button type="button" class = "navbtn" onclick = "HideCourses()"><span id = HideContent>My NEIU Courses ></span></button>
+		</div>
+		<div id = HideSupport class = noshow>
+			<button type="button" class = "navbtn" onclick = "HideSupport()"><span id = supp> 24/7 D2L Support ></span></button>
+		</div>		
+		<script src = "SecondPageJS/scripts.js"></script>
+		<div id = CalendarAppear class = noshow>
+			<button type="button" class = navbtn onclick = "HideCalendar()"><span id = "dates"><span id = "dates_2">Calendar \/</span></button>
+			<div id = AppearContent1>
+				<button type="button" class = navbtn onclick = "HideDate()"><span id = AppearContent1_1>Friday, May 5, 2023 \/</span></button>
+				<img src="img/Calendar.png" alt = SemesterCalendar id = AppearContent1_2 height = 225 width = 200>
+			</div>	
+			<div id = DissappearContent1 class = noshow>
+				<button type="button" class = navbtn onclick = "HideDate()"><span id = DissapearContent2>Friday, May 5, 2023 ></span></button>
+			</div>
+			<div id = AppearContent2>
+				<button type="button" class = navbtn onclick = "HideEvents()"><span id = AppearContent2_1>Upcoming events \/</span></button>
+				<img src = "img/duedate.png" alt = event id = AppearContent2_2 width = 225px>
+			</div>
+			<div id = DissappearContent3 class = noshow>
+				<button type="button" class = navbtn onclick = "HideEvents()"><span id = DissappearContent4>Upcoming events ></span><button type="button" class = navbtn onclick = "HideEvents()">
+			</div>
+		</div>
+		<div id = resources class = "noshow">
+			<p id = "resourcedropdown-content">D2L Tutorials for Students</p>
+			<p id = "resourcedropdown-content">Ronald Williams Library</p>
+			<p id = "resourcedropdown-content">Tutoring (Learning Success Center)</a></p>
+			<p id = "resourcedropdown-content">Student Handbooks</p>
+			<p id = "resourcedropdown-content">Student Disability Serivces</p>
+			<p id = "resourcedropdown-content">Class Schedules and Registrations</a></p>
+			<p id = "resourcedropdown-content">Pulse - D2L Smart Phone Application</a></p>
+			<p id = "resourcedropdown-content">Complaints and Grievances</p>
+			<p id = "resourcedropdown-content">Formal Complaint for Students</p>
+			<p id = "resourcedropdown-content" class = round>More Student Resources</p>
+		</div>
+		<footer>
+  			<p>Author: Umar Janjua<br>
+  			<a href="mailto:ufjanjua@neiu.edu">ufjanjua@neiu.edu</a></p>
+		</footer>
+	</body>
+</html>

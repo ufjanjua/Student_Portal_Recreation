@@ -1,0 +1,576 @@
+html, body
+{
+	margin: 0;
+	.padding: 0;
+}
+#NavBar
+{
+	height: 100px;
+	width: 1536px;
+	positon: absolute;
+	border-top: 5px solid darkblue;
+	border-bottom: 2px solid lightgrey;
+}
+#logo
+{
+	max-height: 60px;
+	max-width: 260px;
+	position: absolute;
+	top: 30px;
+	left: 160px;
+}
+#grid
+{
+	max-height: 70px;
+	max-width: 70px;
+	position: absolute;
+	right: 500px;
+	top: 15px;
+}
+#border1
+{
+	max-width: 23px;
+	max-height: 53px;
+	position: absolute;
+	right: 475px;
+	top: 25px;
+}
+#mail
+{
+	max-width: 62px;
+	max-height: 45px;
+	position: absolute;
+	right: 415px;
+	top: 30px;
+}
+#discussion
+{
+	max-height: 49px;
+	max-width: 50px;
+	position: absolute;
+	right: 360px;
+	top: 25px;
+}
+#notification
+{
+	max-width: 50px;
+	max-height: 49px;
+	position: absolute;
+	right: 315px;
+	top: 25px;
+}
+#border2
+{
+	max-height: 52px;
+	max-width: 30px;
+	position: absolute;
+	right: 290px;
+	top: 23px;
+}
+#pfp
+{
+	max-width: 68px;
+	max-height: 67px;
+	position: absolute;
+	top: 15px;
+}
+#name
+{
+	position: absolute;
+	right: 110px;
+	top: 40px;
+	max-width: 100px;
+}
+#user
+{
+	max-width: 100px;
+	margin-left: 1250px;
+	margin-top: 10px;
+}
+#settings
+{
+	max-width: 57px;
+	max-height: 61px;
+	position: absolute;
+	right: 50px;
+	top: 20px;
+}
+#border3
+{
+	position: absolute;
+	left: 225px;
+	top: 30px;
+}
+#CourseName
+{
+	position: absolute;
+	left: 250px;
+	top: 45px;
+}
+#SecondNavBar
+{
+	width: 1536px;
+	height: 50px;
+	border-bottom: 3px solid lightgrey;
+}
+#CHome
+{
+	position: absolute;
+	left: 160px;
+	top: 120px;
+}
+#Content
+{
+	position: absolute;
+	top: 120px;
+	left: 280px;
+}
+#discc
+{
+	position: absolute;
+	top: 120px;
+	left: 360px;
+}
+#Assignments
+{
+	position: absolute;
+	top: 120px;
+	left: 470px;
+}
+#Quizzes
+{
+	position: absolute;
+	top: 120px;
+	left: 585px;
+}
+#ClistEmail
+{
+	position: absolute;
+	top: 120px;
+	left: 665px;
+}
+#Grades
+{
+	position: absolute;
+	top: 120px;
+	left: 810px;
+}
+#Groups
+{
+	position: absolute;
+	top: 120px;
+	left: 880px;
+}
+#Attendance
+{
+	position: absolute;
+	top: 120px;
+	left: 955px;
+}
+#Zoom
+{
+	position: absolute;
+	top: 120px;
+	left: 1060px;
+}
+#CourseTitle
+{
+	position: absolute;
+	left: 160px;
+	top: 135px;
+}
+#CourseAnnouncements
+{
+	height:700px;
+	width: 700px;
+	border: 3px solid lightgrey;
+	border-radius: 5px;
+	position: absolute;
+	left: 160px;
+	top: 235px;
+}
+#announcements
+{
+	position: absolute;
+	left: 25px;
+	top: 15px;
+}
+#Week10
+{
+	color: #006fbf;
+	position: absolute;
+	top: 50px;
+	left: 25px;
+}
+#PostDate
+{
+	color: gray;
+	position: absolute;
+	top: 75px;
+	left: 25px;
+}
+#annpt1
+{
+	position: absolute;
+	left: 25px;
+	top: 100px;
+}
+#Details
+{
+	position: absolute;
+	left: 25px;
+	top: 125px;
+}
+#indent
+{
+	margin-left: 50px;
+}
+#CourseUpdates
+{
+	width: 300px;
+	height: 125px;
+	border: 3px solid lightgrey;
+	border-radius: 5px;
+	position: absolute;
+	top: 235px;
+	right: 325px;
+}
+#UpdateTxt
+{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+#UserLinks
+{
+	width: 300px;
+	height: 325px;
+	border: 3px solid lightgrey;
+	border-radius: 5px;
+	position: absolute;
+	top: 400px;
+	right: 325px;	
+}
+#HiddenUserLinks
+{
+	width: 300px;
+	height: 65px;
+	border: 3px solid lightgrey;
+	border-radius: 5px;
+	position: absolute;
+	top: 400px;
+	right: 325px;
+}
+#ULinks
+{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+#LinksContent
+{
+	position: absolute;
+	top: 50px;
+}
+#CourseName:hover
+{
+	color: #006fbf;
+	text-decoration: underline;
+}
+#CHome:hover
+{
+	color: #006fbf;
+	text-decoration: underline;
+}
+#Content:hover
+{
+	color: #006fbf;
+	text-decoration: underline;
+}
+#discc:hover
+{
+	color: #006fbf;
+	text-decoration: underline;
+}
+#Assignments:hover
+{
+	color: #006fbf;
+	text-decoration: underline;
+}
+#CourseName:hover
+{
+	color: #006fbf;
+	text-decoration: underline;
+}
+#Quizzes:hover
+{
+	color: #006fbf;
+	text-decoration: underline;
+}
+#CListEmail:hover
+{
+	color: #006fbf;
+	text-decoration: underline;
+}
+#Grades:hover
+{
+	color: #006fbf;
+	text-decoration: underline;
+}
+#Groups:hover
+{
+	color: #006fbf;
+	text-decoration: underline;
+}
+#Attendance:hover
+{
+	color: #006fbf;
+	text-decoration: underline;
+}
+#Zoom:hover
+{
+	color: #006fbf;
+	text-decoration: underline;
+}
+#Week10:hover
+{
+	text-decoration: underline;
+}
+.noshow
+{
+	display: none;
+}
+.show
+{
+	display: block;
+}
+.navbtn
+{
+	background: transparent;
+	border: none !important;
+}
+#classes
+{
+	border: 3px solid lightgrey;
+	border-radius: 5px;
+	width: 450px;
+	background: white;
+	position: absolute;
+	right: 290px;
+	top: 65px;
+}
+#client:hover
+{
+	color: #006fbf;
+	text-decoration: underline;
+}
+.navbtn
+{
+	background: transparent;
+	border: none !important;
+}
+#pg
+{
+	position: absolute;
+}
+#em
+{
+	position: absolute;
+	left: 55px;
+}
+#nomsgs
+{
+	position: absolute;
+	top: 25px;
+	border: 2px solid gray;
+	border-radius: 5px;
+}
+#messages
+{
+	border: 2px solid lightgrey;
+	border-radius: 5px;
+	height: 50px;
+	width: 120px;
+	background: white;
+	position: absolute;
+	top: 65px;
+	right: 380px;
+}
+#pg:hover
+{
+	color: #006fbf;
+	text-decoration: underline;
+}
+#em:hover
+{
+	color: #006fbf;
+	text-decoration: underline;
+}
+#msgtype
+{
+	border-bottom: 2px solid gray;
+	height: 19px;
+}
+#discussionscontent
+{
+	border: 2px solid gray;
+	width: 115px;
+	height: 50px;
+	border-radius: 5px;
+	position: absolute;
+	left: 3px;
+	top: 4px;
+}
+#discussionsdropdown
+{
+	border: 3px solid lightgrey;
+	height: 60px;
+	width: 125px;
+	border-radius: 5px;
+	background: white;
+	position: absolute;
+	top: 65px;
+	right: 325px;
+}
+#notificationscontent
+{
+	border: 2px solid gray;
+	width: 115px;
+	height: 50px;
+	border-radius: 5px;
+	position: absolute;
+	left: 3px;
+	top: 4px;
+}
+#notificationsdropdown
+{
+	border: 3px solid lightgrey;
+	height: 60px;
+	width: 125px;
+	border-radius: 5px;
+	background: white;
+	position: absolute;
+	top: 65px;
+	right: 270px;
+}
+#usercontent
+{
+	border-bottom: 2px solid lightgray;
+}
+#usercontent2
+{
+	border-bottom: 2px solid lightgrey;
+	border-radius: 5px;
+}
+#userdropdown
+{
+	border-left: 2px solid lightgrey;
+	border-right: 2px solid lightgrey;
+	border-top: 2px solid lightgrey;
+	border-radius: 5px;
+	width: 200px;
+	height: 200px;
+	color: #006fbf;
+	background: white;
+	position: absolute;
+	top:65px;
+	right: 75px;
+}
+#usercontent1:hover
+{
+	text-decoration: underline;
+}
+#usercontent:hover
+{
+	text-decoration: underline;
+}
+#usercontent2:hover
+{
+	text-decoration: underline;
+}
+#name:hover
+{
+	text-decoration: underline;
+}
+#settingscontent2
+{
+	color: #006fbf;
+}
+#settingscontent2:hover
+{
+	text-decoration: underline;
+}
+#settingsdropdown
+{
+	border: 2px solid lightgrey;
+	border-radius: 5px;
+	width: 200px;
+	background: white;
+	position: absolute;
+	top: 65px;
+	right: 25px;
+}
+#HideAnnouncements
+{
+	height:75px;
+	width: 700px;
+	border: 3px solid lightgrey;
+	border-radius: 5px;
+	position: absolute;
+	left: 160px;
+	top: 235px;
+}
+#indent2
+{
+	margin-left: 25px;
+	position: absolute;
+	top: 50px;
+}
+#HiddenUpdates
+{
+	width: 300px;
+	height: 65px;
+	border: 3px solid lightgrey;
+	border-radius: 5px;
+	position: absolute;
+	top: 235px;
+	right: 325px;
+}
+ul.no-bullets
+{
+  list-style-type: none;
+}
+#blue1
+{
+	color: #006fbf;
+}
+#blue1:hover
+{
+	text-decoration: underline;
+}
+#blue2
+{
+	color: #006fbf;
+}
+#blue2:hover
+{
+	text-decoration: underline;
+}
+#announcements:hover
+{
+	text-decoration: underline;
+}
+#UpdateTxt:hover
+{
+	text-decoration: underline;
+}
+#ULinks:hover
+{
+	text-decoration: underline;
+}
+footer
+{
+	position: absolute;
+	top: 1000px;
+	left: 160px;
+}
